@@ -8,6 +8,7 @@
 - Get pos of max/min in array `my_array.argmax(), my_array.argmin()`
 - Get shape of array/matrix `my_array.shape`
 - Reshape array of 25 elements in to 5 x 5 matrix `my_array.reshape(5,5)`
+- Make 3 x 3 identity matrix `np.eye(3)`
 ## Commonly used `Conda` Functions
 - Activate base conda env `conda activate base`
 - Create new conda env `conda create -n <name_of_env> python==<version_of_python>`
