@@ -13,6 +13,6 @@
 - Create new conda env `conda create -n <name_of_env> python==<version_of_python>
 - Install packages `conda install <package_of_choice>
 - See all conda envs `conda env list`
-###Note when installing jupyter in conda you might get a `Server error 500` when launch a new notebook if so try the following:
+### Note when installing jupyter in conda you might get a `Server error 500` when launch a new notebook if so try the following:
 - install jupyter from conda *not pip*
 - install `nbconvert` *from conda not pip*
