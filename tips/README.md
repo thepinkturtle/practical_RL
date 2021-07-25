@@ -4,6 +4,7 @@
 - Make array of linearly spaced numbers `np.linspace(start,stop,num_numbers)`
 - Make array of 10 ints `np.random.randint(10)`
 - Make 3 x 3 identity matrix `np.eye(3)`
+- Make random float between 0 - 1 `np.random.random(1)`
 - Get max number in array `my_array.max()`
 - Get min number in array `my_array.min()`
 - Get pos of max/min in array `my_array.argmax(), my_array.argmin()`
