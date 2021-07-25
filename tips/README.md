@@ -10,8 +10,8 @@
 - Reshape array of 25 elements in to 5 x 5 matrix `my_array.reshape(5,5)`
 ## Commonly used `Conda` Functions
 - Activate base conda env `conda activate base`
-- Create new conda env `conda create -n <name_of_env> python==<version_of_python>
-- Install packages `conda install <package_of_choice>
+- Create new conda env `conda create -n <name_of_env> python==<version_of_python>`
+- Install packages `conda install <package_of_choice>`
 - See all conda envs `conda env list`
 ### Note:
 When installing jupyter in conda you might get a `Server error 500` when launching a new notebook if so try the following:
