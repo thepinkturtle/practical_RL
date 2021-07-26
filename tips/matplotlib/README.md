@@ -11,3 +11,7 @@ axes.set_xlabel('A')
 axes.set_ylabel('B')
 axes.set_title('My Plot')
 ```
+- Inlay a plot on another plot by using the same `fig`
+```python 
+axes2 = fig.add_axes([1,2, .25, .25])
+# if using the same fig as above
