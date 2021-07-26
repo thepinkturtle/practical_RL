@@ -1,5 +1,5 @@
 ## Commonly used `NumPy` functions
-- Make array of 10 ones `
+- Make array of 10 ones
 ```python
 np.ones(10)
 ```
