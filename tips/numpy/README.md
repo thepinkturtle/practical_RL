@@ -11,3 +11,6 @@
 - Get pos of max/min in array `my_array.argmax(), my_array.argmin()`
 - Get shape of array/matrix `my_array.shape`
 - Reshape array of 25 elements in to 5 x 5 matrix `my_array.reshape(5,5)`
+
+## Sources
+[NumPy](https://numpy.org/doc/1.16/reference/routines.random.html)
