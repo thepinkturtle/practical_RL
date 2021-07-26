@@ -12,7 +12,7 @@ plt.show()
 ```
 
 ### Figure with Axes 
-*Allows for multiple plots on one figure
+*Allows for multiple plots on one figure*
 - Make a complete plot
 ```python
 axes = fig.add_axes([0, 0, 1, 1])
