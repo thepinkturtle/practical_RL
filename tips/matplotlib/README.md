@@ -1,4 +1,17 @@
 ### Figure
+- Just using `plot aka plt`
+```python
+plt.plot(x,y)
+plt.title('String Title')
+plt.xlabel('X axis')
+plt.ylabel('Y axis')
+plt.xlim(0,max(x))
+plt.ylim(0,max(y))
+plt.savefig('myfirstplot.png')
+plt.show()
+```
+
+### Figure with Axes
 - Make a complete plot
 ```python
 axes = fig.add_axes([0, 0, 1, 1])
@@ -27,15 +40,4 @@ axes.plot(a,b)
 
 #bbox_inches make it include the axes and labels
 fig.savefig('new_figure.png', bbox_inches="tight")
-```
-- Just using `plot aka plt`
-```python
-plt.plot(x,y)
-plt.title('String Title')
-plt.xlabel('X axis')
-plt.ylabel('Y axis')
-plt.xlim(0,max(x))
-plt.ylim(0,max(y))
-plt.savefig('myfirstplot.png')
-plt.show()
 ```
