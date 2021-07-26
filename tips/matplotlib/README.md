@@ -15,3 +15,16 @@ axes.set_title('My Plot')
 ```python 
 axes2 = fig.add_axes([1,2, .25, .25])
 # if using the same fig as above
+```
+- Save a plot complete example
+```python
+fig = plt.figure(dpi=400, figsize=(2,2))
+axes = fig.add_axes([0,0,1,1])
+axes.set_xlabel('A')
+axes.set_ylabel('B')
+axes.set_title('My Title bro')
+axes.plot(a,b)
+
+#bbox_inches make it include the axes and labels
+fig.savefig('new_figure.png', bbox_inches="tight")
+```
