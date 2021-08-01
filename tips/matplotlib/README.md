@@ -1,3 +1,24 @@
+### Legend
+- Create a legend on an axes object do the following:
+```python
+# Data for the example
+x = np.linspace(0,11,10)
+
+# Create the figure object
+fig = plt.figure()
+
+# Give it axes 
+ax = fig.add_axes([0,0,1,1])
+
+# Plot the data AND give it a label, this will be used in the legend call below
+ax.plot(x,x,label='x vs x')
+ax.plot(x,x**2,label='x vs x^2')
+
+# Create/show the legend. The 'loc' parameter can be a simple string "best/upper right/lower left"
+# or it can be a 'coordinates' relative to the 'ax' object. This is useful if you want the legend 
+# outside of the plot
+ax.legend(loc=(1.01,.88))
+```
 ### Subplots
 - Create axes and fig in one go
 ```python
