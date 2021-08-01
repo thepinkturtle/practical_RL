@@ -1,4 +1,9 @@
 ### Figure
+- Create axes and fig in one go
+```python
+import matplotlib.pyplot as plt
+fig, axes = plt.subplots(nrows=3, ncols=1)
+```
 - Just using `plot aka plt`
 ```python
 plt.plot(x,y)
