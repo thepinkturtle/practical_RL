@@ -15,7 +15,7 @@ ax.plot(x,x,label='x vs x')
 ax.plot(x,x**2,label='x vs x^2')
 
 # Create/show the legend. The 'loc' parameter can be a simple string "best/upper right/lower left"
-# or it can be a 'coordinates' relative to the 'ax' object. This is useful if you want the legend 
+# or it can be a tuple ('coordinates') relative to the 'ax' object. This is useful if you want the legend 
 # outside of the plot
 ax.legend(loc=(1.01,.88))
 ```
