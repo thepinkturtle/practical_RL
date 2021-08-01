@@ -1,5 +1,5 @@
 ### Legend
-- Create a legend on an axes object do the following:
+- Create a legend on an axes object
 ```python
 # Data for the example
 x = np.linspace(0,11,10)
