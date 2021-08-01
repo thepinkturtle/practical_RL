@@ -1,3 +1,20 @@
+### Marker and line styling
+```python
+x = np.linspace(0,11,10)
+fig = plt.figure()
+ax = fig.add_axes([0,0,1,1.5])
+ax.plot(x,x**3,color="#d15208", 
+                label="x vs x*3", 
+                markerfacecolor='red',
+                linewidth=3, 
+                linestyle='--', 
+                markersize='20',
+                marker='s', 
+                markeredgewidth=6, 
+                markeredgecolor='orange')
+
+ax.legend(loc='best')
+```
 ### Legend
 - Create a legend on an axes object
 ```python
